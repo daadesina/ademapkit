@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "ademapkit"
-version = "0.0.4"
+version = "0.0.5"
 description = "This is a package for all the countries in the world"
 readme = "README.md"
 authors = [{ name = "Abdullah Adesina Dhikrullah", email = "daadesina1@gmail.com" }]

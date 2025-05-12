@@ -2,7 +2,7 @@ import requests
 import sqlite3
 
 # CREATE THE COUNTRY TABLE
-def createTable():
+def createCountryTable():
     createCountryTable = """CREATE TABLE IF NOT EXISTS country(
         id INTEGER PRIMARY KEY,
         continent TEXT NOT NULL,
@@ -17,7 +17,7 @@ def createTable():
 
 def insertCountry():
     url = "https://restcountries.com/v3.1/all"
-    createTable()
+    createCountryTable()
     try:
         response = requests.get(url)
         response.raise_for_status()

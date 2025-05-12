@@ -11,5 +11,8 @@ ademapkit.egg-info/requires.txt
 ademapkit.egg-info/top_level.txt
 ademapkit/map/__init__.py
 ademapkit/map/country_script.py
+ademapkit/map/usa_cities_script.py
 ademapkit/model/__init__.py
 ademapkit/model/country_model.py
+ademapkit/model/usa_cities_details_model.py
+ademapkit/model/usa_cities_model.py
